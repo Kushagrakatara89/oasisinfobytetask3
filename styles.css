@@ -1,0 +1,249 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #45a049;
+}
+
+.navbar .btn.secondary {
+  background-color: #666;
+}
+
+.navbar .btn.secondary:hover {
+  background-color: #555;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .content {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* About section */
+.about-section .content {
+  text-align: center;
+}
+
+.about-section .image img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.about-section .buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-section .buttons .btn {
+  margin: 10px;
+}
+
+.about-section .buttons .btn.secondary {
+  background-color: #666;
+}
+
+.about-section .buttons .btn.secondary:hover {
+  background-color: #555;
+}
+#skills {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 60px 0;
+  text-align: center;
+}
+
+#skills .content {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#skills p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+
+/* Projects section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Testimonials section */
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+.circular-img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border: 5px solid #fff; /* Optional: Add a white border around the image */
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  border: 2px solid #4CAF50;
+}
+
+.secondary-btn {
+  background-color: #666; /* Dark Gray */
+  color: #fff;
+  border: 2px solid #666;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker shade for primary */
+}
+
+.secondary-btn:hover {
+  background-color: #555; /* Darker shade for secondary */
+}
+
+
